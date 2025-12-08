@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+
+# .NET / Visual Studio
+bin/
+obj/
+*.csproj.user
+.vs/
+.vscode/
+*.user
+
+# Go
+go.sum
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Large data files
+*.csv
+*.parquet
+*.feather
+*.lancedb/
+
+# Model files
+*.llamafile
+*.gguf
+*.bin
+models/
+*_model/
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Environment
+.env
+.env.local
+
+# Temp
+.cache/
+tmp/
+temp/
+*.tmp

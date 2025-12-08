@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EdgeSight Q&A</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">EdgeSight Analyst</p>
+        <h1>Ask about current conditions</h1>
+        <p class="sub">Backed by embeddings + Qwen via the Go API.</p>
+      </div>
+    </header>
+
+    <section class="panel">
+      <div class="field-row">
+        <label for="location">Location</label>
+        <input id="location" value="Los Angeles" />
+      </div>
+      <div class="field-row">
+        <label for="question">Question</label>
+        <textarea id="question" rows="3" placeholder="e.g., How is the air quality and grid load right now?" aria-label="Question"></textarea>
+      </div>
+      <button id="askBtn" class="btn">Ask</button>
+      <div id="status" class="status" aria-live="polite"></div>
+    </section>
+
+    <section class="panel" id="answerSection" style="display:none;">
+      <h2>Answer</h2>
+      <div id="answer" class="answer"></div>
+      <h3>Sources</h3>
+      <div id="sources" class="sources"></div>
+    </section>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

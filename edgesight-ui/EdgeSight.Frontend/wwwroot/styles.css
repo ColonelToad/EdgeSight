@@ -1,0 +1,30 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Inter", system-ui, -apple-system, sans-serif; background: #0f172a; color: #e2e8f0; }
+a { color: #7dd3fc; }
+
+.page { max-width: 960px; margin: 0 auto; padding: 32px 20px 64px; }
+.hero { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-bottom: 24px; }
+.eyebrow { text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; color: #94a3b8; margin: 0 0 4px 0; }
+.hero h1 { margin: 0 0 8px 0; font-size: 32px; color: #e2e8f0; }
+.sub { margin: 0; color: #cbd5e1; }
+
+.panel { background: #111827; border: 1px solid #1f2937; border-radius: 12px; padding: 20px; margin-bottom: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.25); }
+.field-row { display: flex; flex-direction: column; gap: 6px; margin-bottom: 14px; }
+.field-row label { font-size: 14px; color: #cbd5e1; }
+input, textarea { width: 100%; border-radius: 10px; border: 1px solid #1f2937; padding: 12px; background: #0b1220; color: #e2e8f0; font-size: 15px; }
+input:focus, textarea:focus { outline: 1px solid #38bdf8; }
+
+.btn { padding: 12px 16px; border: none; border-radius: 10px; background: linear-gradient(135deg, #22d3ee, #0ea5e9); color: #0b1220; font-weight: 700; cursor: pointer; transition: transform 0.08s ease, box-shadow 0.08s ease; }
+.btn:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(34, 211, 238, 0.35); }
+.btn:active { transform: translateY(0); }
+
+.status { margin-top: 10px; min-height: 18px; color: #cbd5e1; font-size: 14px; }
+.answer { white-space: pre-wrap; line-height: 1.5; color: #e2e8f0; }
+.sources { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 10px; }
+.source-card { border: 1px solid #1f2937; border-radius: 10px; padding: 12px; background: #0b1220; }
+.source-card h4 { margin: 0 0 6px 0; font-size: 14px; color: #cbd5e1; }
+.source-card .meta { font-size: 12px; color: #94a3b8; }
+
+@media (max-width: 640px) {
+  .hero { flex-direction: column; align-items: flex-start; }
+}
