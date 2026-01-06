@@ -1,4 +1,4 @@
-# EdgeSight 🗄️ ARCHIVED
+# EdgeSight ARCHIVED
 
 > **Status:** This project has been archived as of January 6, 2026. It served its purpose as a Go learning project and prototype for semantic search over environmental data. See [ARCHIVE.md](./ARCHIVE.md) for full context, lessons learned, and salvageable patterns.
 
@@ -139,13 +139,13 @@ Available metrics:
 
 ## Frontend Features
 
-- ✅ Real-time dashboard with auto-refresh (60s)
-- ✅ 8 data categories displayed
-- ✅ Responsive design (mobile-friendly)
-- ✅ Dark theme UI
-- ✅ Location selection
-- ✅ Error handling & loading states
-- ✅ CORS-enabled for local development
+- Real-time dashboard with auto-refresh (60s)
+- 8 data categories displayed
+- Responsive design (mobile-friendly)
+- Dark theme UI
+- Location selection
+- Error handling & loading states
+- CORS-enabled for local development
 
 ## Next Steps (Phase 2 - LLM Integration)
 
@@ -181,18 +181,6 @@ SQLite database with single `snapshot` table containing all metrics:
 - Query parameters for filtering
 - RFC3339 timestamps
 - Error responses with descriptive messages
-
-## MVP Checklist
-
-- ✅ Data ingestion from 11 sources
-- ✅ SQLite persistence with time-series support
-- ✅ REST API with 5 endpoints
-- ✅ Web dashboard UI
-- ✅ Real-time data visualization
-- ✅ Responsive design
-- ⏳ LLM integration (Phase 2)
-- ⏳ Vector search (Phase 2)
-- ⏳ Advanced analytics (Phase 2)
 
 ## Testing
 
