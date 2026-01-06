@@ -1,4 +1,18 @@
-# EdgeSight MVP - Phase 1 Complete
+# EdgeSight 🗄️ ARCHIVED
+
+> **Status:** This project has been archived as of January 6, 2026. It served its purpose as a Go learning project and prototype for semantic search over environmental data. See [ARCHIVE.md](./ARCHIVE.md) for full context, lessons learned, and salvageable patterns.
+
+**Quick Links:**
+- [Why Archived?](./ARCHIVE.md#why-its-being-archived)
+- [What Was Built?](./ARCHIVE.md#what-was-completed)
+- [How to Run (For Reference)](./ARCHIVE.md#how-to-run-for-future-reference)
+- [Key Learnings](./ARCHIVE.md#key-learnings--patterns)
+
+---
+
+## Original Project Description
+
+EdgeSight was a polyglot system for semantic search over environmental, economic, and sensor data. It combined Go (HTTP API), Python (embeddings + LLM), and .NET (frontend) to answer questions like "How is air quality affecting my location?"
 
 ## Architecture Overview
 
